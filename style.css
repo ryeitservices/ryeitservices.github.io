@@ -12,7 +12,7 @@ body {
 
 /* Make images responsive */
 img {
-  width: 100%;
+  width: 25%;
   height: auto;
   display: block;
   margin: 20px 0;
@@ -21,7 +21,7 @@ img {
 /* Style for navigation */
 header nav ul {
   list-style: none;
-  padding: 0;
+  padding: 10;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
