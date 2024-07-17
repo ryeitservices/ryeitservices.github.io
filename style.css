@@ -16,8 +16,8 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
-  margin: 20px 0;
-  max-height: 400px; /* Example: Set a maximum height for images */
+  margin: 20px auto; /* Center align images and add margin */
+  max-height: 100%; /* Ensure images don't exceed their container height */
 }
 
 /* Style for navigation */
