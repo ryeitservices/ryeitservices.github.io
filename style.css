@@ -1,14 +1,18 @@
-body {
+/* Reset margin and padding for the entire page */
+body, html {
   margin: 0;
-  font-family: Helvetica, Arial, sans-serif;
+  padding: 0;
   overflow-x: hidden; /* Prevent horizontal scrolling on the body */
+  font-family: Helvetica, Arial, sans-serif;
 }
 
+/* Ensure content within the container doesn't exceed viewport width */
 .container {
-  width: 100vw; /* Full viewport width */
-  max-width: 100%; /* Ensures content doesn't exceed viewport width */
+  width: 100%;
+  max-width: 100%;
   padding: 20px;
   box-sizing: border-box; /* Include padding in width calculation */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 /* Make images responsive */
@@ -93,6 +97,7 @@ section h2 {
 
 .about img {
   max-width: 100%;
+  height: auto;
 }
 
 .services ul {
