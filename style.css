@@ -17,11 +17,16 @@ body, html {
 
 /* Make images responsive */
 img {
-  max-width: 100%;
-  height: auto;
+  max-width: 100%; /* Ensure images scale with their container */
+  height: auto; /* Maintain aspect ratio */
   display: block;
   margin: 20px auto; /* Center align images and add margin */
   max-height: 100%; /* Ensure images don't exceed their container height */
+}
+
+/* Limit max width of images to 400 pixels */
+img {
+  max-width: 400px;
 }
 
 /* Style for navigation */
